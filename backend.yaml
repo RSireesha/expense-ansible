@@ -2,7 +2,7 @@
   hosts: backend
   become: yes
   vars:
-    login_host: db.daws-78s.store
+    login_host: db.sireesha.online
     login_password: ExpenseApp@1
   tasks:
   - name: disable default nodejs
